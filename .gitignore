@@ -1,1 +1,28 @@
+# Eigene Einstellungen (nur .env.example kommt ins Repo)
+.env
 
+# Ansible: echte Geräte-Liste und Schlüssel
+ansible/inventory/hosts.yml
+ansible/keys/
+*.pem
+id_ed25519*
+
+# WireGuard: private Schlüssel
+wireguard/*.key
+wireguard/wg0.conf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# System / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
